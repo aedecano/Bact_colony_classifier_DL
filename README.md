@@ -28,3 +28,11 @@ python3 classify_colony_dl.py --train_data_path /path/to/train/data --val_data_p
 **Note:**
 - This script can benefit from GPU acceleration for faster training. Make sure you have access to a CUDA-enabled GPU if you wish to utilize GPU acceleration.
 - If you don't have access to a GPU, you can still run the script on a CPU, but training may take significantly longer.
+
+## Inspecting the Output Model
+
+After training the model, you can inspect the saved model parameters by running:
+
+```
+python3 inspect_model.py --model_path /path/to/your/model.pth
+```
