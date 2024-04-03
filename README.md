@@ -9,3 +9,18 @@ This project focuses on developing a deep learning-based bacterial colony classi
 The proposed system leverages the power of PyTorch, a widely used deep learning framework, to construct a CNN architecture capable of learning discriminative features from bacterial colony images. By training the model on a dataset containing labeled images of Staphylococcus aureus and Escherichia coli colonies, we intend to create a robust classifier capable of accurately identifying these bacterial species.
 
 This project holds significant potential for enhancing the efficiency and accuracy of bacterial colony classification in microbiology laboratories. By automating this process, we can reduce reliance on manual labor, minimize human error, and accelerate the pace of bacterial identification, ultimately contributing to advancements in healthcare, food safety, and environmental monitoring.
+
+## Running the Code
+
+1. **Clone Repository:**
+```
+git clone https://github.com/aedecano/Bact_colony_classifier_DL
+```
+2. **Navigate to Directory:**
+```
+cd Bact_colony_classifier_DL
+```
+3. **Run Script:**
+```
+python3 classify_colony_dl.py --train_data_path /path/to/train/data --val_data_path /path/to/validation/data --batch_size 32 --learning_rate 0.001 --epochs 10 --model_save_path /path/to/save/model.pth
+```
