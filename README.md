@@ -24,3 +24,7 @@ cd Bact_colony_classifier_DL
 ```
 python3 classify_colony_dl.py --train_data_path /path/to/train/data --val_data_path /path/to/validation/data --batch_size 32 --learning_rate 0.001 --epochs 10 --model_save_path /path/to/save/model.pth
 ```
+
+**Note:**
+- This script can benefit from GPU acceleration for faster training. Make sure you have access to a CUDA-enabled GPU if you wish to utilize GPU acceleration.
+- If you don't have access to a GPU, you can still run the script on a CPU, but training may take significantly longer.
